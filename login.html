@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <section class="learn">
+    <!-- <div class="tb">
+      <table border="1"style="width:100%">
+          <tbody>
+              <tr>
+                  <th align="left"><img src="IDHA -logos_black.png" alt="" class="logo"></th>
+                  <th><a href="index.html">Home</a></th>
+                  <th><a href="about.html">About Us</a></th>
+                  <th><a href="services.html">Services</a></th>
+                  <th><a href="contact.html">Contact</a></th>
+                  <th><a href="login.html">Login</a></th>
+              </tr>
+          </tbody>
+      </table>
+  </div> -->
+  <div class="nv">
+    <header style="padding-left: 0px;padding-right:15px;">
+      <div class="logo"><img src="IDHA -logos_black.png" alt="" class="logo"></div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="index.html" >Home</a>
+          </li>
+          <li>
+            <a href="about.html" >About Us</a>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="login.html"class="active">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function () {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+      }
+    </script>
+  </div>
+    <section class="hero">
+      <div class="contentBX">
+        <div class="formBX">
+          <h2>Login</h2>
+          <form>
+            <div class="inputBx">
+              <span>Username</span>
+              <input type="text" name="">
+            </div>
+            <div class="inputBx">
+              <span>Password</span>
+              <input type="password" name="">
+            </div>
+            <div class="remember">
+              <label><input type="checkbox" name="">Remember me</label>
+            </div>
+            <div class="inputBx">
+              <input type="submit" name="Sign in" value="Sign in">
+            </div>
+            <div class="inputBx">
+              <p>Don't have an account?<a href="#">Sign up</a></p>
+            </div>
+          </form>
+          <h3>Login with social media</h3>
+          <ul class="soc">
+            <li><a href="https://www.facebook.com/hafeez.mohammed.547"><i class="uil uil-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="uil uil-linkedin-alt"></i></a></li>
+            <li><a href="https://google.com/"><i class="uil uil-google"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <img src="loginbg.svg" alt="">
+
+    </section>
+  </section>
+
+</body>
+
+</html>

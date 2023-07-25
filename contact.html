@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="tb">
+            <table border="1" style="width:100%">
+                <tbody>
+                    <tr>
+                        <th align="left"><img src="IDHA -logos_black.png" alt="" class="logo"></th>
+                        <th><a href="index.html">Home</a></th>
+                        <th><a href="about.html">About Us</a></th>
+                        <th><a href="services.html">Services</a></th>
+                        <th><a href="contact.html">Contact</a></th>
+                        <th><a href="login.html">Login</a></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div> -->
+        <div class="nv">
+            <header style="padding-left: 0px;padding-right:15px;">
+                <div class="logo"><img src="IDHA -logos_black.png" alt="" class="logo"></div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="nav-bar">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="active">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="Login.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <script>
+                hamburger = document.querySelector(".hamburger");
+                hamburger.onclick = function () {
+                    navBar = document.querySelector(".nav-bar");
+                    navBar.classList.toggle("active");
+                }
+            </script>
+        </div>
+
+        <section class="contact">
+            <div class="contact__form">
+                <h1>Contact <span>Us</span></h1>
+                <p>
+                    We are available for freelance work.
+                    Connect with Us Via phone:9989754574
+                    or email: im454686@gmail.com .
+                </p>
+                <form action="">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="" placeholder="Write a Subject" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+                    <input type="submit" name="submit" value="submit" class="button">
+                </form>
+            </div>
+            <div class="contact_img">
+                <img src="contact.jpg" alt="">
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

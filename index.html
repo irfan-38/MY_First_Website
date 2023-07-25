@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet" />
+        <script src="home.js" defer></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+</head>
+
+<body>
+    <section class="learn">
+        <header style="padding-left: 0px;padding-right:15px;">
+            <div class="logo"><img src="IDHA -logos_black.png" alt="" class="logo"></div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <script>
+            hamburger=document.querySelector(".hamburger");
+            hamburger.onclick=function()
+            {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+        
+        <!--=================================== contentt============================================= -->
+        <section class="hero">
+            <div class="content">
+                
+                <p class="accent">Making a website</p>
+                <h1>We work your ideas</h1>
+                <h2>Description of services, who we are as a company and some filler text about the company</h2>
+                <a href="about.html" class="btn">About Us<i class="uil uil-arrow-right"></i></a>
+                
+            </div>
+            <img src="a.svg" id="hero-illustration" alt="illustration">
+           
+        </section>
+    </section>
+    <footer>
+        <div class="container fcontent">
+            <div class="row">
+                <div class="fcol">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="fcol">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">BUGS</a></li>
+                        <li><a href="">Modifications</a></li>
+                    </ul>
+                </div>
+                <div class="fcol">
+                    <h4> Follow Us</h4>
+                    <ul>
+                        <li><a href=""><i class="uil uil-instagram"></i></a></li>
+                        <li><a href=""><i class="uil uil-twitter-alt"></i></a></li>
+                        <li><a href=""><i class="uil uil-linkedin-alt"></i></a></li>
+                    </ul>
+                </div>
+                <div class="fcol">
+                    <h1>IDHA</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
